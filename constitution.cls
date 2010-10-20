@@ -34,7 +34,7 @@
 	\setmainfont[Ligatures=TeX,Numbers={OldStyle,Proportional}]{Constantia}
 	\newfontface\fraktur{eufm10}
 \else
-	RequirePackage[utf8]{inputenc}
+	\RequirePackage[utf8]{inputenc}
 	\def\fraktur{}
 \fi
 
