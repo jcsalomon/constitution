@@ -31,6 +31,34 @@
 	\RequirePackage[utf8]{inputenc}
 \fi
 
+\RequirePackage{newunicodechar}
+\newunicodechar{ᵃ}{\textsuperscript{a}}
+\newunicodechar{ᵇ}{\textsuperscript{b}}
+\newunicodechar{ᶜ}{\textsuperscript{c}}
+\newunicodechar{ᵈ}{\textsuperscript{d}}
+\newunicodechar{ᵉ}{\textsuperscript{e}}
+\newunicodechar{ᶠ}{\textsuperscript{f}}
+\newunicodechar{ᵍ}{\textsuperscript{g}}
+\newunicodechar{ʰ}{\textsuperscript{h}}
+\newunicodechar{ⁱ}{\textsuperscript{i}}
+\newunicodechar{ʲ}{\textsuperscript{j}}
+\newunicodechar{ᵏ}{\textsuperscript{k}}
+\newunicodechar{ˡ}{\textsuperscript{l}}
+\newunicodechar{ᵐ}{\textsuperscript{m}}
+\newunicodechar{ⁿ}{\textsuperscript{n}}
+\newunicodechar{ᵒ}{\textsuperscript{o}}
+\newunicodechar{ᵖ}{\textsuperscript{p}}
+%\newunicodechar{}{\textsuperscript{q}}
+\newunicodechar{ʳ}{\textsuperscript{r}}
+\newunicodechar{ˢ}{\textsuperscript{s}}
+\newunicodechar{ᵗ}{\textsuperscript{t}}
+\newunicodechar{ᵘ}{\textsuperscript{u}}
+\newunicodechar{ᵛ}{\textsuperscript{v}}
+\newunicodechar{ʷ}{\textsuperscript{w}}
+\newunicodechar{ˣ}{\textsuperscript{x}}
+\newunicodechar{ʸ}{\textsuperscript{y}}
+\newunicodechar{ᶻ}{\textsuperscript{z}}
+
 \RequirePackage{hyperref}
 
 \renewcommand{\maketitle}{\begin{center}\huge\thetitle\end{center}}
